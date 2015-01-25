@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="honor6-dev/android_device_huawei_h60_l02" path="device/huawei/h60_l02" remote="github" />
+  <project name="honor6-dev/android_device_huawei_h60-common" path="device/huawei/h60-common" remote="github" />
+  <project name="honor6-dev/android_kernel_huawei_h60" path="kernel/huawei/h60" remote="github" />
+  <project name="honor6-dev/proprietary_vendor_huawei" path="vendor/huawei" remote="github" />
+
+  <remove-project name="CyanogenMod/android_build" />
+  <project name="CyanogenMod/android_build" path="build" remote="github" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+</manifest>
