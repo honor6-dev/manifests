@@ -7,7 +7,11 @@
   <project name="honor6-dev/proprietary_vendor_huawei" path="vendor/huawei" remote="github" />
 
   <remove-project name="CyanogenMod/android_build" />
-  <project name="CyanogenMod/android_build" path="build" remote="github" >
+  <project name="honor6-dev/android_build" path="build" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project name="honor6-dev/android_bionic" path="bionic" remote="github" />
+
 </manifest>
