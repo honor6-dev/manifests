@@ -14,4 +14,7 @@
   <remove-project name="CyanogenMod/android_bionic" />
   <project name="honor6-dev/android_bionic" path="bionic" remote="github" />
 
+  <remove-project name="CyanogenMod/android_system_core" />
+  <project name="honor6-dev/android_system_core" path="system/core" remote="github" />
+
 </manifest>
