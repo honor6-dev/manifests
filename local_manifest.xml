@@ -22,9 +22,6 @@
   <remove-project name="CyanogenMod/android_system_core" />
   <project name="honor6-dev/android_system_core" path="system/core" remote="github" />
 
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="honor6-dev/android_frameworks_base" path="frameworks/base" remote="github" />
-
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="honor6-dev/android_frameworks_native" path="frameworks/native" remote="github" />
 
