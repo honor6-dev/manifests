@@ -4,22 +4,11 @@
   <project name="honor6-dev/android_device_huawei_h60_l04" path="device/huawei/h60_l04" remote="github" />
   <project name="honor6-dev/android_device_huawei_h60-common" path="device/huawei/h60-common" remote="github" />
   <project name="honor6-dev/proprietary_vendor_huawei" path="vendor/huawei" remote="github" />
-  
+
+  <remove-project name="CyanogenMod/android_frameworks_native" path="frameworks/native" />
+  <project name="honor6-dev/android_frameworks_native" path="frameworks/native" remote="github" />
+
 <!--
   <project name="honor6-dev/android_kernel_huawei_h60" path="kernel/huawei/h60" remote="github" />
-
-  <remove-project name="CyanogenMod/android_build" />
-  <project name="honor6-dev/android_build" path="build" remote="github" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
-  <remove-project name="CyanogenMod/android_bionic" />
-  <project name="honor6-dev/android_bionic" path="bionic" remote="github" />
-
-  <remove-project name="CyanogenMod/android_system_core" />
-  <project name="honor6-dev/android_system_core" path="system/core" remote="github" />
-
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="honor6-dev/android_frameworks_native" path="frameworks/native" remote="github" />
 -->
 </manifest>
